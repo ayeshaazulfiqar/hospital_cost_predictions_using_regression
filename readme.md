@@ -36,14 +36,29 @@ Using the following independent features:
 
 ## 🛠️ Regression Models Implemented
 
-The following models were implemented and compared:
+The following regression models were implemented and compared:
 
-1. Linear Regression  
-2. Lasso Regression  
-3. Elastic Net Regression  
-4. Gradient Boosting Regressor  
+### 1️⃣ Linear Regression
+A simple baseline model that assumes a linear relationship between independent variables and the target variable.
 
----
+### 2️⃣ Ridge Regression
+Ridge Regression is a regularized linear regression technique that applies **L2 regularization**.  
+It adds a penalty term to the loss function to reduce model complexity and prevent overfitting.
+
+- Helps when features are highly correlated
+- Shrinks coefficients but does not eliminate them completely
+- Improves generalization performance
+
+### 3️⃣ Lasso Regression
+Lasso Regression applies **L1 regularization**, which can shrink some coefficients to zero.  
+This makes it useful for automatic feature selection.
+
+### 4️⃣ Elastic Net Regression
+Elastic Net combines both **L1 and L2 regularization**, balancing feature selection and coefficient shrinkage.
+
+### 5️⃣ Gradient Boosting Regressor
+A powerful ensemble learning method that builds models sequentially and captures non-linear relationships for improved accuracy.
+
 
 ## 📊 Machine Learning Workflow
 

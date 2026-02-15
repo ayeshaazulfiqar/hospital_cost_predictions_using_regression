@@ -57,14 +57,16 @@ models = {
     "Linear Regression": joblib.load("linear_regression_model.joblib"),
     "Ridge Regression": joblib.load("ridge_regression_model.joblib"),
     "Lasso Regression": joblib.load("lasso_regression_model.joblib"),
-    "ElasticNet Regression": joblib.load("elasticnet_model.joblib")
+    "ElasticNet Regression": joblib.load("elasticnet_model.joblib"),
+    "Gradient Boosting": joblib.load("gradient_boosting_model.joblib")
 }
 
 model_info = {
     "Linear Regression": "Simple baseline model",
     "Ridge Regression": "Handles multicollinearity",
     "Lasso Regression": "Performs feature selection",
-    "ElasticNet Regression": "Best balance of Ridge & Lasso"
+    "ElasticNet Regression": "Best balance of Ridge & Lasso",
+    "Gradient Boosting": "Captures non-linear relationships for higher accuracy"
 }
 
 # --------------------------------------------------
